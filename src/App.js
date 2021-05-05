@@ -89,7 +89,7 @@ class Kpads extends React.Component {
     const otherSymbolStyle = {
     border: "1px solid white",
     height: "2vh",
-    width: "3vh",
+    width: "2vh",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
@@ -226,13 +226,14 @@ class App extends React.Component {
   render() {
 
     const calculatorStyle = {
-      paddingTop: "2vh",
+
       border: "5px solid #333232",
       width: "65vh",
-      height: "90vh",
+      height: "95vh",
       backgroundColor: "#333232",
       marginTop: "5vh",
       marginBottom: "10vh",
+      marginLeft: "10vh",
       borderRadius: "30px"
     };
 
